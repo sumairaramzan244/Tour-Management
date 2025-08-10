@@ -1,0 +1,342 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="plan.css">
+    <style>
+        .navbar{
+            overflow: hidden;
+            /* background-color: rgb(231, 181, 120); */
+            background-color: darkorange;
+        }
+        
+        .navbar a {
+            float: right;
+            font-size: 16px;
+            color: rgb(22, 22, 22);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar a:hover, .dropdown hover .btn{
+            box-sizing: border-box;
+        }
+        body{
+            margin-left: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(0, 0, 0);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .column img{
+            margin: 5px;
+    
+        }
+        
+     .row::after{
+         content: "";
+         display: table;
+         clear: both;
+     }
+     .dropdown{
+        font-size: 16px;
+       float: right;
+       overflow: hidden;
+     }
+     .dropdown .btn{
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: black;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        font-weight: bold;
+     }
+     .button{
+         background-color: orange;
+         border: none;
+         color: white;
+         padding: 15px 32px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+     }
+    
+     .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color:rgb(231, 181, 120) ;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+     }
+     .dropdown-content a{
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+     }
+      .btn a:hover{
+        background-color: rgb(231, 181, 120);
+     }
+     .dropdown:hover .dropdown-content{
+        display: block;
+     }
+
+     table, tr, th{
+
+border: 1px solid;
+
+
+}
+tr,td{
+border: 1px solid;
+text-align: center;
+
+}
+table {
+margin: 0 auto;
+width: 600px;
+border: 1;
+width: 100%;
+
+
+}
+a{
+
+align-items: center;
+color: blue;
+font-size: larger;
+}
+    
+    
+    </style>
+	
+	<!-- </style> -->
+</head>
+</style>
+<body style="background-color: burlywood;">
+     <div id="fir">
+       
+        <div class="navbar">
+            <a href="logout.php">Logout</a>
+            <a href="Places.html">Places</a>
+            <!-- <a href="hotels.html">Hotels</a> -->
+            <a href="whether.html">Weather</a>
+            <a href="About.html">About</a>
+            <a href="home.html" style="font-weight:14px;">Home</a>
+            <div class = "dropdown">
+                <button class="btn">Profile
+                    <i class="fa fa-caret-down"></i>
+                </button>
+            
+            <div class="dropdown-content">
+                <!-- <a class ="links" href="userdetail.php">Profile Card</a> -->
+                <a href="signup.html">Create</a>
+                <a href="U.html">Update</a>
+                <a href="Delete.html">Delete</a>
+            </div>
+            
+            </div>  
+            
+        </div>
+<!-- <h2 style="padding-left:550px ; color: darkorange; font-weight: 1500;font-size: 20px;font-size: xx-large;margin-top: 20px;">Login</h2>
+<div class="column">
+    <div style="border: 2px solid rgba(0, 0, 0, 0.5);height: 350px;width: 450px;margin-left: 400px;margin-top: 20px;background-color:rgba(0, 0, 0, 0.5);border-radius: 15px;
+    box-shadow: 0 0 10px sandybrown;">
+</head>
+<body>
+    <h1 style="background-color: aliceblue; color: black; text-align: center; font-size: larger; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-top: 5%;">We have Some seggested plans with reasonable price for our customers </h1>
+    <br><br>
+    <div class="container"> -->
+        <h1 style=" color: black; text-align: center; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-top: 480px;">We have Some seggested plans with reasonable price for our customers </h1>
+    <table style="border: 2px solid black;margin-top: 50px;">
+<tr>
+    <th>Plan Number</th>
+    <th>Transport</th>
+    <th>Hotel</th>
+    <th>Restuarent</th>
+    <th>Destination</th>
+    <th>Days</th>
+    <th>Buged</th>
+    <th>Select</th>
+
+</tr>
+<tr>
+    <td>
+        plan 01
+    </td>
+    <td>
+        Jeep
+    </td>
+    <td>
+        Moss View Hotel
+    </td>
+    <td>
+        Urban Kitchen
+    </td>
+    <td>
+        lahore
+    </td>
+    <td>
+       3 days
+    </td>
+    <td>
+        30,000
+    </td>
+    <td>
+        <a href="signup.html">Select</a>
+    </td>
+</tr>
+<tr>
+    <td>
+        plan 02
+    </td>
+    <td>
+        Bus
+    </td>
+    <td>
+        Pearl-Continental Hotel
+    </td>
+    <td>
+        BBQ Tonight
+    </td>
+    <td>
+        Karachi
+    </td>
+    <td>
+       3 days
+    </td>
+    <td>
+        35,000
+    </td>
+    <td>
+        <a href="signup.html">Select</a>
+    </td>
+</tr>
+<tr>
+    <td>
+        plan 03
+    </td>
+    <td>
+        Jeep
+    </td>
+    <td>
+        Islamabad Marriott Hotel
+    </td>
+    <td>
+        Qismish Islamabad
+    </td>
+    <td>
+        Islamabad
+    </td>
+    <td>
+       3 days
+    </td>
+    <td>
+        40,000
+    </td>
+    <td>
+        <a href="signup.html">Select</a>
+    </td>
+</tr>
+<tr>
+    <td>
+        plan 04
+    </td>
+    <td>
+        Jeep
+    </td>
+    <td>
+        Pearl-Continental hotel
+    </td>
+    <td>
+        China Town
+    </td>
+    <td>
+        Swat
+    </td>
+    <td>
+       4 Days
+    </td>
+    <td>
+        50,000
+    </td>
+    <td>
+        <a href="signup.html">Select</a>
+    </td>
+</tr>
+<tr>
+    <td>
+        plan 05
+    </td>
+    <td>
+        Car
+    </td>
+    <td>
+        Hotel One Naran
+    </td>
+    <td>
+        The Troutland Restaurant
+    </td>
+    <td>
+        Naran Kaghan
+    </td>
+    <td>
+       7 days
+    </td>
+    <td>
+        75,000
+    </td>
+    <td>
+        <a href="signup.html">Select</a>
+    </td>
+</tr>
+<tr>
+    <td>
+        plan 06
+    </td>
+    <td>
+        Car
+    </td>
+    <td>
+        High Rock Hunza Hotel
+    </td>
+    <td>
+        Taste of Hunza
+    </td>
+    <td>
+        Hunza Valley
+    </td>
+    <td>
+       3 days
+    </td>
+    <td>
+        35,000
+    </td>
+    <td>
+        <a href="signup.html">Select</a>
+    </td>
+</tr>
+
+</table>
+<div style="border: 2px solid black;margin-top:70px;height: 250px; background-color: black;">
+    
+    <h3 style="color: white;text-align: center;text-transform: uppercase;margin-top: 45px;">Follow Us</h3>
+    <h2 style="color: white;text-align: center;">Join us on social networks</h2>
+    <img src="fb.png" style=" height: 50px; width: 50px;margin-left: 0px;">
+    <img src="insta.png" style=" height: 50px;width: 50px;margin-left: 25px; ">
+    <img src="twitter.jpg" style=" height: 50px;width: 100px;margin-left: 500px; float: left;">
+    </div>
+
+</body>
+</html>
