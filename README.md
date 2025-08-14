@@ -39,7 +39,7 @@ A dynamic tour booking system that allows users to sign up, log in, book tours, 
 **weather Page**
 <img width="1919" height="833" alt="image" src="https://github.com/user-attachments/assets/fa9a45f5-09de-4a9c-8258-5c2421497574" />
 
-**How to Run**
+**How to Run This Project**
 1. Install XAMPP 
 2. Copy folder to htdocs
 3. Start Apache & MySQL
