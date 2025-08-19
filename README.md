@@ -6,17 +6,18 @@ A dynamic tour booking system that allows users to sign up, log in, book tours, 
 1. User Registration & Login
 2. View Public Pages: Home, Places, About
 3. Book Tours with:
+   
    . Tour Plan
    . Budget
    . Number of Days
    . City Selection
-4. Payment Information Page (Static)
-5. Profile Management 
+5. Payment Information Page (Static)
+6. Profile Management 
    1. Create
    2. Update
    3. Delete
 
-6. Logout functionality
+7. Logout functionality
 
 **Tech Stack**
 1. PHP
