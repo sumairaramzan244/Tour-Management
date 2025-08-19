@@ -7,10 +7,10 @@ A dynamic tour booking system that allows users to sign up, log in, book tours, 
 2. View Public Pages: Home, Places, About
 3. Book Tours with:
    
-   . Tour Plan
-   . Budget
-   . Number of Days
-   . City Selection
+   1. Tour Plan
+   2. Budget
+   3. Number of Days
+   4. City Selection
 5. Payment Information Page (Static)
 6. Profile Management 
    1. Create
