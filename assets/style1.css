@@ -1,0 +1,122 @@
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.container{
+    float: right;
+    padding-right:10px ;
+   
+}
+.container li{
+    display: inline;
+}
+.container li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+.container ul li a:hover{
+    background-color: green;
+    color: brown;
+}
+#fir{
+    background:  linear-gradient(rgba(0,0,0,0.7),rgba(150, 149, 149, 0.5)),   
+    url(p2.jpg);
+    height: 500px;
+  
+   background-size: 1500px 600px;
+   background-repeat: no-repeat;
+    
+}
+.def{
+   
+    color: white;
+   
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font: size 400px;
+    margin-right: 350px;    
+    text-transform: capitalize;
+    text-align: center;
+    font-size: x-large;
+    word-spacing: 1px;
+    
+}
+
+.op{
+    text-align: center;
+    text-transform:uppercase;
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+    display: inline-block;
+    margin-left: 480px;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 450px;
+    font-weight: bolder;
+    
+}
+.d1{
+    text-transform: uppercase;
+    font-size: larger;
+    text-align: center;
+    background-color: black;
+    width: 200px;
+    color: white;
+    padding: 2px;
+    text-shadow: 60px;
+}
+.d2{
+    margin-left: 20px;
+    border:2px solid black;
+    width: 200px;
+    height: 700px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* margin-left: 10px; */
+    /* padding-left: 10px; */
+    margin-top: 8px;
+    object-fit: cover;
+    padding-left: 10px;
+}
+.d3{
+    text-align: center;
+   
+}
+
+.d1{
+    text-transform: uppercase;
+    font-size: larger;
+    text-align: center;
+    background-color: black;
+    width: 350px;
+    color: white;
+    padding: 2px;
+    text-shadow: 60px;
+}
+.d2{
+    margin: 40px;
+    border:2px solid black;
+    width: 350px;
+    height: 700px;
+    float: right;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 125px;
+    margin-top: 8px;
+    object-fit: cover;
+}
+.d3{
+    text-align: center;
+   
+}
+

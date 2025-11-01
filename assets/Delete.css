@@ -1,0 +1,137 @@
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.container{
+    float: right;
+    /* margin-top: 20px; */
+    padding-right:10px ;
+   
+}
+.container li{
+    display: inline;
+}
+.container li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+.container ul li a:hover{
+    background-color: green;
+    color: brown;
+}
+#fir{
+     background:   
+    url(form.jpg);
+    /* background-image: url(01.jfif); */
+    height: 100vh;
+  
+   background-size: 1500px 600px;
+   background-repeat: no-repeat;
+    
+}
+.def{
+   
+    color: white;
+   
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font: size 500px;
+    text-transform:capitalize;
+   
+    padding-top: 10px;
+    
+     padding-left: 120px;
+    text-transform: uppercase;
+    font-size: x-large;
+    
+}
+
+.img1{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+}
+.main{
+    /* border: 2px solid white; */
+    height: 400px;
+    width: 300px;
+    margin: 60px;
+    float: left;
+}
+
+.main1{
+    /* border: 2px solid white; */
+    height: 400px;
+    width: 300px;
+    margin-top: 60px;
+    float: right;
+    margin-right: 40px;
+}
+.d1{
+ border: 1px solid black;
+ align-items: center;
+ display: inline-block;
+ border-left: none;
+ border-right: none;
+ text-align: center;
+ /* margin-left: 0px; */
+ margin-left: 60px;
+ padding: 30px; 
+ margin-top: 30px;
+ font-size: xx-large;
+ text-transform: uppercase;
+ text-align: center;
+     
+}
+.d1 H2{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+font-weight: 100;
+text-transform: uppercase;
+font-family: Tarajan;
+font-size: larger;
+}
+
+.d2{
+    border: 1px solid black;
+    display: inline-block;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 0px;
+    padding: 100px;   
+   }
+   .d2 H2{
+       font-family: 'Times New Roman', Times, serif;
+       text-transform: uppercase;
+   font-weight: 100;
+   
+   } 
+
+  .d4{
+    margin-left: 450px;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size:x-large;
+  }
+
+  /* #fir2{
+    margin-top: 550px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), 
+    url(main.jpg);
+    height: 60vh;
+  
+   background-size: 1500px 600px;
+   background-repeat: no-repeat;
+    
+} */
+
+   

@@ -1,0 +1,75 @@
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.container{
+    float: right;
+    /* margin-top: 20px; */
+    padding-right:10px ;
+   
+}
+.container li{
+    display: inline;
+}
+.container li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+.container ul li a:hover{
+    background-color: green;
+    color: brown;
+}
+#fir{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(43, 43, 43, 0.918)), 
+    url(wheather.jpg);
+    height: 100vh;
+  
+   background-size: 1500px 600px;
+   background-repeat: no-repeat;
+    
+}
+.op{
+     font-weight: 100;font-size: 25px;
+    text-transform:uppercase;
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+    line-height: 150px;
+   
+    line-height: 20px;
+   display: inline-block;
+   text-align: center;
+   margin-left: 300px;
+    /* margin-bottom: 30px; */
+    margin-top: 10px;
+}
+.para{
+    padding-right: 100px;
+    padding-top: 50px;
+    text-align: justify;
+    margin-left: 600px;
+   
+}
+
+img{
+    float:left ;
+    padding-left: 80px;
+    height: 350px;
+}
+
+/* #last{
+    /* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), 
+    url(black.JPG); */
+    /* height: 50vh;
+    background-color: black;
+    border: 2px solid black;
+   background-size: 1500px 300px;
+   background-repeat: no-repeat; */
+   /* color: white;
+   text-align: center; 
+    
+} */

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<style>
+    .navbar{
+        overflow: hidden;
+        /* background-color: rgb(231, 181, 120); */
+        background-color: darkorange;
+    }
+    
+    .navbar a {
+        float: right;
+        font-size: 16px;
+        color: rgb(22, 22, 22);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .navbar a:hover, .dropdown hover .btn{
+        box-sizing: border-box;
+    }
+    body{
+        margin-left: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(0, 0, 0);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .column img{
+        margin: 5px;
+
+    }
+    
+ .row::after{
+     content: "";
+     display: table;
+     clear: both;
+ }
+ .dropdown{
+    font-size: 16px;
+   float: right;
+   overflow: hidden;
+ }
+ .dropdown .btn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    font-weight: bold;
+ }
+ .button{
+     background-color: orange;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+ }
+
+ .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:rgb(231, 181, 120) ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+ }
+ .dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+ }
+  .btn a:hover{
+    background-color: rgb(231, 181, 120);
+ }
+ .dropdown:hover .dropdown-content{
+    display: block;
+ }
+
+
+</style>
+
+<body style="background-color: burlywood;">
+   
+    
+	<body style="background-color: burlywood;">
+		<div id="fir">
+		  
+   <div class="navbar">
+		   
+	   <a href="Places.html">Places</a>
+	   <a href="hotels.html">Hotels</a>
+	   <a href="whether.html">Weather</a>
+	   <a href="About.html">About</a>
+	   <a href="home.html" style="font-weight:14px;">Home</a>
+	   <div class = "dropdown">
+		   <button class="btn">Profile
+			   <i class="fa fa-caret-down"></i>
+		   </button>
+	   
+	   <div class="dropdown-content">
+		   <a class ="links" href="userdetail.php">Profile Card</a>
+		   <a href="signup.html">Create</a>
+		   <a href="update.html">Update</a>
+		   <a href="delete.html">Delete</a>
+	   </div>
+	   
+	   </div>  
+	   
+	   
+   </div>
+   <div class="first">
+	<h1 style="padding-left:550px ; padding-top: 100px; color: darkorange; font-weight: 1500;font-size: 50px;"> 
+		About us
+	</h1>
+	<p style="padding-left:100px ;margin-right: 100px; color: rgb(255, 255, 255); font-size: 30px; font-family:Arial, Helvetica, sans-serif;text-align: center;">
+		Our aim is to assist our customer for a safe and comfortable journey.
+		We provide best plans for the tours.
+		And also assist our customers to make their plans successful.
+	</p>
+	</div>
+<!-- </div> -->
+
+<br>
+<div class="op"  style="margin-top: 200px;">
+    <h3 >About Royal Travel company</h3>
+   
+</div>
+<br>
+<div>
+    <img src="main.jpg">
+    <p class="para">
+    
+	   A travel agency is a private retailer or public service that provides travel and tourism-related services
+	    to the general public on behalf of accommodation or travel suppliers to offer different kinds of 
+		travelling packages for each destination. Travel agencies can provide outdoor recreation, arranging 
+		logistics for luggage and medical items delivery for travellers upon request, public transport 
+		timetables, car rentals, and bureau de change services. Travel agencies can also serve as general 
+		sales agents for airlines that do not have offices in a specific region. A travel agency's main 
+		function is to act as an agent, selling travel products and services on behalf of a supplier.
+		 They are also called Travel Advisors. They do not keep inventory in-hand unless they have pre-booked 
+		 hotel rooms or cabins on a cruise ship for a group travel event such as a wedding, honeymoon, or other
+		  group event.
+
+
+        </p>
+</div>
+
+<div style="border: 2px solid black;margin-top:150px;height: 250px; background-color: black;">
+    
+    <h3 style="color: white;text-align: center;text-transform: uppercase;margin-top: 60px;">Follow Us</h3>
+    <h2 style="color: white;text-align: center;">Join us on social networks</h2>
+    <img src="twitter.jpg" style=" height: 50px;width: 100px;margin-left: 400px; float: left;">
+    <img src="fb.png" style=" height: 50px; width: 50px;margin-left: 0px;">
+    <img src="insta.png" style=" height: 50px;width: 50px;margin-left: 0px;">
+   
+    </div>
+</div>
+
+</body>
+</html>
