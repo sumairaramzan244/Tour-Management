@@ -44,6 +44,7 @@ A dynamic tour booking system that allows users to sign up, log in, book tours, 
 1. Install XAMPP 
 2. Copy folder to htdocs
 3. Start Apache & MySQL
+
 4. Import database.sql in phpMyAdmin
 5. Visit: http://localhost/Tour_Booking
 
