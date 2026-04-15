@@ -48,6 +48,7 @@ A dynamic tour booking system that allows users to sign up, log in, book tours, 
 4. Import database.sql in phpMyAdmin
 5. Visit: http://localhost/Tour_Booking
 
+
 ## About
 
 Developed by **Sumaira Ramzan**  
