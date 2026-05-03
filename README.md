@@ -26,6 +26,7 @@ A dynamic tour booking system that allows users to sign up, log in, book tours, 
 4. CSS
    
 **Screen shots**
+
 **Login Page: **
 <img width="1916" height="796" alt="image" src="https://github.com/user-attachments/assets/ff65edba-c417-433e-8c82-62e0ed8c05f3" />
 **Sign Up Page:**
